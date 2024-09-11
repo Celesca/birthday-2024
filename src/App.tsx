@@ -34,8 +34,9 @@ function App() {
         )}
         {currentView === 'newPage' && (
           <>
-            <Happy /> 
-
+            <div className="mt-50">
+              <Happy /> 
+            </div>
             
             <div className="pt-20 flex flex-col justify-center items-center">
               <h1 data-aos="fade-up font-bold text-3xl">Happy Birthday!</h1>

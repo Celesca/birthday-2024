@@ -6,8 +6,17 @@
     height: 100vh;
   }
 
+.happy-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Added margin-top to push content down */
+  }
+  
 .kaew-image {
     width: 30%;
     height: 30%;
     border-radius: 20%;
+    object-fit: cover;
 }

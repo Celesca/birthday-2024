@@ -2,6 +2,7 @@ import "./Card.css";
 
 export default function Card() {
     return (
+        <div className="card-container">
     <div className="birthdayCard">
       <div className="cardFront">
         <h3 className="happy">HAPPY BIRTHDAY Kaew!</h3>
@@ -19,8 +20,8 @@ export default function Card() {
           สุขสันต์วันเกิด ขอให้โลกใจดีกับเธอ ขอให้หัวเราะมากๆ มีความสุขมากๆ
           เข้าใจและรู้ว่าเธอกำลังพยายาม สักวันเธอจะต้องประสบความสำเร็จอย่างแน่นอน ฉันเชื่อแบบนั้น :)
         </p>
-        <p className="name">Pawan</p>
       </div>
+    </div>
     </div>
 
     )}

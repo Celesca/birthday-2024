@@ -4,7 +4,7 @@ export default function Card() {
     return (
     <div className="birthdayCard">
       <div className="cardFront">
-        <h3 className="happy">HAPPY BIRTHDAY Love!</h3>
+        <h3 className="happy">HAPPY BIRTHDAY Kaew!</h3>
         <div className="balloons">
           <div className="balloonOne" />
           <div className="balloonTwo" />
@@ -13,11 +13,11 @@ export default function Card() {
         </div>
       </div>
       <div className="cardInside">
-        <h3 className="back">HAPPY BIRTHDAY vodoo!</h3>
-        <p>Dear Friend,</p>
+        <h3 className="back">HAPPY BIRTHDAY NA!</h3>
+        <p>Dear แก้ว,</p>
         <p>
-          Happy birthday!! I hope your day is filled with lots of love and
-          laughter! May all of your birthday wishes come true.
+          สุขสันต์วันเกิด ขอให้โลกใจดีกับเธอ ขอให้หัวเราะมากๆ มีความสุขมากๆ
+          เข้าใจและรู้ว่าเธอกำลังพยายาม สักวันเธอจะต้องประสบความสำเร็จอย่างแน่นอน ฉันเชื่อแบบนั้น :)
         </p>
         <p className="name">Pawan</p>
       </div>

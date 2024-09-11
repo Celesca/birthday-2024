@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.App {
+    height: 100vh;
+  }
+
+.kaew-image {
+    width: 30%;
+    height: 30%;
+    border-radius: 20%;
+}

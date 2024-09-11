@@ -8,6 +8,35 @@
   box-sizing: border-box;
 }
 
+.surprise-box {
+  position: fixed;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 300px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: openBox 1s ease-in-out forwards;
+}
+
+.birthday-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@keyframes openBox {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
 .App {
   background-image: url('https://marketplace.canva.com/EAE9XG0hOgk/1/0/1600w/canva-pink-red-colorful-birthday-zoom-virtual-background-32bHJ9XZg4U.jpg');
   background-size: cover;
